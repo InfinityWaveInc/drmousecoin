@@ -144,40 +144,41 @@ function DoctorMouseLandingPage() {
 
 
             <div className='h-32 w-full bg-gradient-to-r from-gray-800 to-black flex justify-between items-center p-6 z-50'>
-                <div className='flex space-x-4'>
-                    <div className="flex items-center justify-center space-x-4">
-                        <a href="https://x.com/DrMouseCoin?t=4LV24L3j1VWhgtepFaDB3A&s=09" target="_blank" rel="noopener noreferrer" className="transform hover:scale-110 transition-transform duration-300">
-                            <div className="bg-gradient-to-br from-blue-900 via-blue-500 to-blue-300 rounded-full p-2 md:p-5 lg:px-6 shadow-lg image-3d">
-                                <i className="fa-brands fa-x-twitter text-xl text-white"></i>
-                            </div>
-                        </a>
-                        <a href="https://t.me/+Cv2pmIa9OI0wMDVh" target="_blank" rel="noopener noreferrer" className="transform hover:scale-110 transition-transform duration-300">
-                            <div className="bg-gradient-to-br from-blue-900 via-blue-500 to-blue-300 rounded-full p-2 md:p-5 lg:px-6 shadow-lg image-3d">
-                                <i className="fa-brands fa-telegram text-xl text-white"></i>
-                            </div>
-                        </a>
-                        <a href="https://dexscreener.com/solana/apgie2rbaezrlbo1yur8cpcav6zfuy6dzcy9yebtezfs" target="_blank" rel="noopener noreferrer" className="transform hover:scale-110 transition-transform duration-300">
-                            <div className="bg-gradient-to-br from-blue-900 via-blue-500 to-blue-300 rounded-full p-2 md:p-5 lg:px-6 shadow-lg image-3d">
-                                <img src={dexScreenerIcon} className=' h-6 w-6' ></img>
+  <div className='flex space-x-2 md:space-x-4 justify-center items-center'>
+    <div className="flex items-center justify-center space-x-1 md:space-x-4">
+      <a href="https://x.com/DrMouseCoin?t=4LV24L3j1VWhgtepFaDB3A&s=09" target="_blank" rel="noopener noreferrer" className="transform hover:scale-110 transition-transform duration-300">
+        <div className="bg-gradient-to-br from-blue-900 via-blue-500 to-blue-300 rounded-full p-2 sm:p-3 md:p-4 lg:p-5 shadow-lg image-3d min-w-[40px] min-h-[40px] flex items-center justify-center">
+          <i className="fa-brands fa-x-twitter text-xs sm:text-sm md:text-base lg:text-lg text-white"></i>
+        </div>
+      </a>
+      <a href="https://t.me/+Cv2pmIa9OI0wMDVh" target="_blank" rel="noopener noreferrer" className="transform hover:scale-110 transition-transform duration-300">
+        <div className="bg-gradient-to-br from-blue-900 via-blue-500 to-blue-300 rounded-full p-2 sm:p-3 md:p-4 lg:p-5 shadow-lg image-3d min-w-[40px] min-h-[40px] flex items-center justify-center">
+          <i className="fa-brands fa-telegram text-xs sm:text-sm md:text-base lg:text-lg text-white"></i>
+        </div>
+      </a>
+      <a href="https://dexscreener.com/solana/apgie2rbaezrlbo1yur8cpcav6zfuy6dzcy9yebtezfs" target="_blank" rel="noopener noreferrer" className="transform hover:scale-110 transition-transform duration-300">
+        <div className="bg-gradient-to-br from-blue-900 via-blue-500 to-blue-300 rounded-full p-2 sm:p-3 md:p-4 lg:p-5 shadow-lg image-3d min-w-[40px] min-h-[40px] flex items-center justify-center">
+          <img src={dexScreenerIcon} className='h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 lg:h-7 lg:w-7' />
+        </div>
+      </a>
+      <a href="https://solscan.io/token/EVS9EoZoxaYZnk8k7jCukfkgG8ZtiFwVtDHRLV4gy8Uz" target="_blank" rel="noopener noreferrer" className="transform hover:scale-110 transition-transform duration-300">
+        <div className="bg-gradient-to-br from-blue-900 via-blue-500 to-blue-300 rounded-full p-2 sm:p-3 md:p-4 lg:p-5 shadow-lg image-3d min-w-[40px] min-h-[40px] flex items-center justify-center">
+          <img src={solScanIconTop} className='h-5 w-5 sm:h-6 sm:w-6 md:h-7 md:w-7 lg:h-8 lg:w-8' />
+        </div>
+      </a>
+    </div>
+  </div>
 
-                            </div>
-                        </a>
-                        <a href="https://solscan.io/token/EVS9EoZoxaYZnk8k7jCukfkgG8ZtiFwVtDHRLV4gy8Uz" target="_blank" rel="noopener noreferrer" className="transform hover:scale-110 transition-transform duration-300">
-                            <div className="bg-gradient-to-br from-blue-900 via-blue-500 to-blue-300 rounded-full p-2 md:p-5 lg:px-6 shadow-lg image-3d">
-                                <img src={solScanIconTop} className='h-8 w-8 text-white'  ></img>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div>
-                    <div className="flex flex-row gap-5 items-center">
-                        <h2 className='text-xl font-bold bg-gradient-to-r from-[#304761] to-[#d2d1d6] text-transparent bg-clip-text'>
-                            DOCTOR MOUSE
-                        </h2>
-                        <img src={QRCode} alt="QR Code" className='w-28 h-28' />
-                    </div>
-                </div>
-            </div>
+  <div>
+    <div className="flex flex-row gap-2 items-center ml-2">
+      <h2 className='text-xl font-bold bg-gradient-to-r from-[#304761] to-[#d2d1d6] text-transparent bg-clip-text'>
+        DOCTOR MOUSE
+      </h2>
+      <img src={QRCode} alt="QR Code" className='w-28 h-28' />
+    </div>
+  </div>
+</div>
+
 
             {/* second page  */}
             <div className="bg-gradient-to-r from-primary to-secondary text-black min-h-screen flex flex-col items-center justify-center relative font-pressStart">
@@ -350,16 +351,16 @@ function DoctorMouseLandingPage() {
                         <div className="footer-icons flex flex-col items-center mt-5 space-y-4">
                             <div className="flex flex-row justify-center space-x-4 icon-3d">
                                 <a href="https://x.com/DrMouseCoin?t=4LV24L3j1VWhgtepFaDB3A&s=09" target="_blank" rel="noopener noreferrer">
-                                    <FontAwesomeIcon icon={faXTwitter} size="3x" />
+                                    <FontAwesomeIcon icon={faXTwitter} size="2x" />
                                 </a>
                                 <a href="https://t.me/+Cv2pmIa9OI0wMDVh" target="_blank" rel="noopener noreferrer">
-                                    <FontAwesomeIcon icon={faTelegram} size="3x" />
+                                    <FontAwesomeIcon icon={faTelegram} size="2x" />
                                 </a>
                                 <a href="https://solscan.io/token/EVS9EoZoxaYZnk8k7jCukfkgG8ZtiFwVtDHRLV4gy8Uz" target="_blank" rel="noopener noreferrer">
-                                    <img src={solScanIcon} className='h-16 w-16' />
+                                    <img src={solScanIcon} className='h-10 w-10' />
                                 </a>
                                 <a href="https://dexscreener.com/solana/apgie2rbaezrlbo1yur8cpcav6zfuy6dzcy9yebtezfs" target="_blank" rel="noopener noreferrer">
-                                    <img src={dexScreenerIcon} className='h-16 w-16' />
+                                    <img src={dexScreenerIcon} className='h-10 w-10' />
                                 </a>
                             </div>
 
